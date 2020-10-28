@@ -1,4 +1,4 @@
-# MoWaTER 2020 Denver Water Code Catalogue
+# MoWaTER 2020 Denver Water Project
 
 This is the Denver water team code catalogue. We tried to make it as intuative as possible. 
 
