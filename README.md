@@ -26,12 +26,12 @@ Looking at this plot of the total effluent flow by filter we got a good idea of 
 This graph gave us an unintentional side project. When we showed the Denver Water team this plot they where intrigued by the outliers, and tasked us with trying to find the cause.
 
 ## Statistical Methods
-To test weather or not there was an effect from changing the filters we used 2 similar tests:
+To test whether or not there was a difference in water clarity before and after filters where replaced we used 2 similar tests:
 1. Permutation Test:
 
     We used a permution test to see if there was a significant difference between the mean NTU before and after filter replacment of filters 1-3, when compared to  the difference in means of all other filters(excluding filter 7). We took data from the same time frame before replacment out of all filters and did the same for   a different time frame after replacment.
 
-2. T-Test
+2. T-Test:
     
     Since the permutation test does not provide us with a P-value or confidence interval we opted run a t-test to obtain both.
     
