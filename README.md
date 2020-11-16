@@ -6,11 +6,11 @@
 *This README is a summary of our tech brief if you would like to read our full findings please take a look at our [tech brief file](https://github.com/nathenbyford/MoWaTER/blob/master/Summer2020_DW_TechBrief.pdf)!*
 
 ## Preamble
-This project took a look at the data involved in water filtration at the *Denver Water* foothills filtration plant. Our project focused on looking at the water quality measuments for each of the filters at the plant. 3 of the filters had been changed in winter 2019. We wanted to look and see if replacing the filter made a significant difference in the quality of water and effectivness of the filter.
+This project took a look at the data involved in water filtration at the *Denver Water* foothills filtration plant. Our project focused on looking at the water quality measuments for each of the filters at the plant. Three of the filters had been changed in winter 2019. We wanted to look and see if replacing the filter made a significant difference in the quality of water and effectiveness of the filter.
 
 ### Data
-The data given to us by denver water was construced of the data and time, head loss, total effluent flow, turbitity, and filter runtime of each observation.
-Data was recorded in 5 minute intervals for each filter. Turbidity is measured in NTU, which is a measure of water clarity, so the clearer the water, the lower the turbidity. Head loss is a measure filter efficiency, head loss is the amount of energy lost from pushing the water through the filter. Total effluent flow is the total amount of water flowing through each filter. Filter runtime is the length of time the filter was running since it's last cleaning cycle.
+The data given to us by Denver Water was constructed of the data and time, head loss, total effluent flow, turbidity, and filter runtime of each observation.
+Data was recorded in 5 minute intervals for each filter. Turbidity is measured in Nephelometric Turbidity Units(NTU), which is a measure of water clarity. So the clearer the water, the lower the turbidity. Head loss is a measure of filter efficiency measured by to amount of energy lost in the filtration process. Total effluent flow is the total amount of water flowing through each filter. Filter runtime is the length of time the filter was running since it's last cleaning cycle.
 
 ## Exploratory Data Analysis
 The first task of our EDA was to make some time series plots to see what we where dealing with.
