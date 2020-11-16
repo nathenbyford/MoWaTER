@@ -1,4 +1,3 @@
 # Data Folder
 
-In this folder we have all of our data. From our origional data file to our created data files we used for analysis. 
-Also included in here we have all the scripts to get our data files from the original. 
+The data is owned by Denver Water and is not openly available. Here we have the scripts used to merge the data and format it.
