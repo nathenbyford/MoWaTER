@@ -3,7 +3,7 @@
 
 ***Disclaimer:*** The data for this project is property of [Denver Water](https://www.denverwater.org/) and is not saved on this repository. The data was provided for the [MoWaTER](https://www.baylor.edu/mowater/) Summer program 2020. The Denver Water team consisted of Nathen Byford(Baylor University), Jacqueline Alexandra Evans(Baylor University), and Xi Le(Colorado School of Mines). 
 
-*This README is a summary of our tech brief if you would like more details about our findings please look at our [tech brief file](https://github.com/nathenbyford/MoWaTER/blob/master/Summer2020_DW_TechBrief.pdf)!*
+*This README is a summary of our tech brief, if you would like more details about our findings please look at our [tech brief file](https://github.com/nathenbyford/MoWaTER/blob/master/Summer2020_DW_TechBrief.pdf)!*
 
 ## Preamble
 This project took a look at the data involved in water filtration at the *Denver Water* foothills filtration plant. Our project focused on looking at the water quality measuments for each of the filters at the plant. Three of the filters had been changed in winter 2019. We wanted to look and see if replacing the filter made a significant difference in the quality of water and effectiveness of the filter.
