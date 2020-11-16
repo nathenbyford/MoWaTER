@@ -9,8 +9,8 @@
 This project took a look at the data involved in water filtration at the *Denver Water* foothills filtration plant. Our project focused on looking at the water quality measuments for each of the filters at the plant. Three of the filters had been changed in winter 2019. We wanted to look and see if replacing the filter made a significant difference in the quality of water and effectiveness of the filter.
 
 ### Data
-The data given to us by Denver Water was constructed of the data and time, head loss, total effluent flow, turbidity, and filter runtime of each observation.
-Data was recorded in 5 minute intervals for each filter. Turbidity is measured in Nephelometric Turbidity Units(NTU), which is a measure of water clarity. So the clearer the water, the lower the turbidity. Head loss is a measure of filter efficiency measured by to amount of energy lost in the filtration process. Total effluent flow is the total amount of water flowing through each filter. Filter runtime is the length of time the filter was running since it's last cleaning cycle.
+The data given to us by Denver Water is constructed of the data and time, turbidity,  head loss, total effluent flow, and filter runtime of each observation.
+Data was recorded in 5 minute intervals for each filter. Turbidity is measured in Nephelometric Turbidity Units(NTU), which is a measure of water clarity. So the clearer the water, the lower the turbidity. Head loss is measured by the amount of energy lost in the filtration process. Total effluent flow is the total amount of water flowing through each filter. Filter runtime is the length of time the filter has been running since its last cleaning cycle.
 
 ## Exploratory Data Analysis
 The first task of our EDA was to make some time series plots to see what we where dealing with.
@@ -18,12 +18,12 @@ The first task of our EDA was to make some time series plots to see what we wher
 ### Total effluent flow
 ![Total eff flow](https://raw.githubusercontent.com/nathenbyford/MoWaTER/master/plots/All%20filter%20flow.jpeg)
 
-Looking at this plot of the total effluent flow by filter we got a good idea of when each filter was running. We could see when filters 1-3 where being replaced in winter 2020 and that filter 7 was not running almost all year. We also noticed that there is a seasonal pattern and that more water is filtered overall during the summer months compared to the winter months.
+Looking at this plot of the total effluent flow by filter we got a good idea of when each filter was running. We could see when filters 1-3 were being replaced in winter 2020 and that filter 7 was not running almost all year. We also noticed there is a seasonal pattern and that more water is filtered overall during the summer months compared to the winter months.
 
 ### Turbidity
 ![NTU](https://raw.githubusercontent.com/nathenbyford/MoWaTER/master/plots/NTU.PNG)
 
-This graph added to our origional project our side project. When we showed the Denver Water team this plot they where intrigued by the outliers and tasked us with trying to find the why behind them.
+This graph gave us an unintentional side project. When we showed the Denver Water team this plot they where intrigued by the outliers, and tasked us with trying to find the cause.
 
 ## Statistical Methods
 To test weather or not there was an effect from changing the filters we used 2 similar tests:
